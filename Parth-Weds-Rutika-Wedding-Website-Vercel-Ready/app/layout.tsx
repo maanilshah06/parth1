@@ -1,0 +1,1 @@
+import type { Metadata } from "next"; import "./globals.css"; export const metadata: Metadata={title:"Parth Weds Rutika | Wedding Celebration",description:"Join Parth and Rutika as they begin their forever. Planned with care by Prasang Planners."}; export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><body>{children}</body></html>}
